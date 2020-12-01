@@ -34,13 +34,14 @@ class App extends React.Component {
             < br />
             </div>
             <br />
-            < text >
-                <b > Global and Country Wise Cases of Corona Virus </b>
-                </text> 
+            <text>
+                <b> Global and Country Wise Cases of Corona Virus </b>
+            </text>
+            <br />
+            <br />
             < text >
                 <i> (For a particular country, select a Country from below) </i> 
-                   </text>
-
+            </text>
             < CountryPicker handleCountryChange={this.handleCountryChange} />
             < Cards data={data} country={country} />
             < Chart data={data} country={country} />
