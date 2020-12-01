@@ -41,8 +41,8 @@ class App extends React.Component {
                 <i> (For a particular country, select a Country from below) </i> 
                    </text>
 
-            < Cards data={data} country={country} />
             < CountryPicker handleCountryChange={this.handleCountryChange} />
+            < Cards data={data} country={country} />
             < Chart data={data} country={country} />
 
             </ div>
